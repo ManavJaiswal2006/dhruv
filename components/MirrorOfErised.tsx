@@ -44,7 +44,7 @@ export default function MirrorOfErised({ onClose }: MirrorOfErisedProps) {
           </button>
         </div>
         <p className="text-ink text-lg mb-8 text-center italic">
-          "Our story."
+          &quot;Our story.&quot;
         </p>
 
         {/* Video placeholder or timeline */}

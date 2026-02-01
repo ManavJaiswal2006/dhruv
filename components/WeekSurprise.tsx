@@ -58,7 +58,7 @@ export default function WeekSurprise({ theme, onClose }: WeekSurpriseProps) {
 
             <div className="bg-white/50 p-4 rounded-lg border-2 border-gold/30">
               <p className="text-ink font-handwritten text-lg">
-                This week's feature: <span className="font-magical text-gryffindor">{theme.mainFeature}</span>
+                This week&apos;s feature: <span className="font-magical text-gryffindor">{theme.mainFeature}</span>
               </p>
             </div>
 

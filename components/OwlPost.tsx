@@ -82,8 +82,8 @@ export default function OwlPost({ onClose }: OwlPostProps) {
                     forever solving.
                   </p>
                   <p>
-                    Like the Marauder's Map, you've shown me all the secret
-                    passages of my heart. Like the Room of Requirement, you've
+                    Like the Marauder&apos;s Map, you&apos;ve shown me all the secret
+                    passages of my heart. Like the Room of Requirement, you&apos;ve
                     given me everything I never knew I needed. And like the
                     Unbreakable Vow, I want to make a promise to you that will
                     last forever.
