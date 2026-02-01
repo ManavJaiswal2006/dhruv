@@ -197,7 +197,7 @@ export default function Home() {
             </span>
             {daysUntil > 0 && (
               <span className="text-xs text-ink">
-                {daysUntil} days until Valentine's
+                {daysUntil} days until Valentine&apos;s
               </span>
             )}
           </div>
@@ -376,30 +376,6 @@ export default function Home() {
             </div>
 
             {/* Unlocked Content Display */}
-            {unlockedContent.length > 0 && (
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="max-w-2xl mx-auto mt-8 bg-white/50 backdrop-blur-sm rounded-xl p-6 border-2 border-gold/30"
-              >
-                <h3 className="text-2xl font-magical text-gryffindor mb-4 text-center">
-                  ✨ Unlocked Achievements ✨
-                </h3>
-                <div className="flex flex-wrap gap-2 justify-center">
-                  {unlockedContent.map((item, index) => (
-                    <motion.span
-                      key={index}
-                      initial={{ scale: 0 }}
-                      animate={{ scale: 1 }}
-                      transition={{ delay: index * 0.1 }}
-                      className="px-4 py-2 bg-gradient-to-r from-gold to-yellow-400 text-ink rounded-lg font-magical text-sm"
-                    >
-                      {item}
-                    </motion.span>
-                  ))}
-                </div>
-              </motion.div>
-            )}
 
             {/* Footer */}
             <motion.footer
