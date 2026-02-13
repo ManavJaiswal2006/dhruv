@@ -87,7 +87,7 @@ export default function LoveStory({ onClose }: LoveStoryProps) {
                   controls 
                   className="w-full h-full object-contain"
                 >
-                  <source src="/videos/r-video.mp4" type="video/mp4" />
+                  <source src="WhatsApp Video 2026-02-13 at 23.41.50.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </motion.div>
