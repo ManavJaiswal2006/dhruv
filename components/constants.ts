@@ -1,65 +1,67 @@
+import { m } from "framer-motion"
+
 export const Memory = [
   { 
     id: 1, 
-    caption: 'The day we first met', 
+    caption: 'Where it all began', 
     date: 'Sept 2023', 
-    image: '/images/memory1.jpg' 
+    image: '/images/firsttime.jpeg' 
   },
   { 
     id: 2, 
-    caption: 'That rainy afternoon coffee', 
+    caption: 'That closest mirror moment', 
     date: 'Oct 2023', 
-    image: '/images/memory2.jpg' 
+    image: '/images/second.jpeg' 
   },
   { 
     id: 3, 
-    caption: 'Our first long walk', 
+    caption: 'US unbothered and glowing', 
     date: 'Nov 2023', 
-    image: '/images/memory3.jpg' 
+    image: '/images/third.jpeg' 
   },
   { 
     id: 4, 
-    caption: 'Watching the sunset', 
+    caption: 'Black fits us ', 
     date: 'Dec 2023', 
-    image: '/images/memory4.jpg' 
+    image: '/images/fourth.jpeg' 
   },
   { 
     id: 5, 
-    caption: 'The laugh we couldn’t stop', 
+    caption: 'Surrounded by you loved ones', 
     date: 'Jan 2024', 
-    image: '/images/memory5.jpg' 
+    image: '/images/family.jpeg' 
   },
   { 
     id: 6, 
-    caption: 'Our favorite dinner spot', 
+    caption: 'The laugh we couldn’t stop', 
     date: 'Feb 2024', 
-    image: '/images/memory6.jpg' 
+    image: '/images/sixth.jpeg' 
   },
   { 
     id: 7, 
-    caption: 'Our favorite dinner spot', 
+    caption: 'You made GARBA magical', 
     date: 'Feb 2024', 
-    image: '/images/memory7.jpg' 
+    image: '/images/seventh.jpeg' 
   },
   { 
     id: 8, 
-    caption: 'Our favorite coffee shop', 
+    caption: 'I’m happiest here', 
     date: 'Mar 2024', 
-    image: '/images/memory8.jpg' 
+    image: '/images/eighth.jpeg' 
   },
   { 
     id: 9, 
-    caption: 'Our favorite dinner spot', 
+    caption: 'Where hearts rest', 
     date: 'Apr 2024', 
-    image: '/images/memory9.jpg' 
+    image: '/images/ninth.jpeg' 
   },
 ]
 
 export const TimelineItems = [
-  { title: 'The Spark', description: 'The day our eyes first met and the world felt a little brighter.', icon: '✨' },
-  { title: 'The First Date', description: 'Hours of conversation that felt like only minutes.', icon: '☕' },
-  { title: 'A Special Moment', description: 'When I realized you were the one I’d been waiting for.', icon: '🌙' },
-  { title: 'Adventure Together', description: 'Building memories that I’ll cherish for a lifetime.', icon: '✈️' },
-  { title: 'Today', description: 'Asking you to be my Valentine, and my always.', icon: '💍' },
+  { title: 'The Spark', description: ' The day we first met, I was completely mesmerized by your warmth and hospitality at the club ✨🥰, and by your beautiful nature 💫❤️. I fell in love with the way you cared for me—your protectiveness 🛡️💞, your love 💖, and how you always wanted me to feel my best 🌸😊. ', icon: '✨' },
+  { title: 'Our Dates', description: 'We never really had a date where it was just the two of us going somewhere 🤍🌙, but every moment we spent together was truly wonderful ✨🥰. Each time we went out, those moments became the best times of my life 💫❤️—times when I felt the most loved 💖🌸. I hope we get to keep creating moments like these forever ♾️💞✨ ', icon: '☕' },
+  { title: 'Special Moments', description: 'Every moment we spent together was equally special ✨🤍, but some memories stand out like quiet clues of our love 🌙💞—the time I was sick and you gently covered my eyes so the light wouldn’t disturb my sleep 🥹🌸, the first time we hugged 🤗💖, the first time you kissed my cheek 😚✨, and our first kiss 😘 ❤️, which felt nothing short of magical ✨🌙', icon: '🌙' },
+  { title: 'Adventure Together', description: 'Our life together has never been short on adventure 🧭. From our secret escapes 🤫 to the almirah one 😄, from where due to the Bullet we were almost caught 🏍️💨 to all our little everyday adventures—each moment felt thrilling in its own way 💫. I hope that soon we get to turn these into real adventures too: hiking on trails 🥾🏔️, going on treks 🌄, river rafting 🌊, bungee jumping 🪂, skydiving 🪂☁️, zip-lining 🧗‍♂️—every adventure possible, together ❤️♾️.', icon: '✈️' },
+  { title: 'Today', description: 'Today, I choose you as my Valentine ❤️🌹—not just for today, but for every today and every tomorrow that follows ♾️💞. You are my safest place 🫂, my happiest feeling 😊💓, and the love I never knew I needed ✨🥹.I love you so, so much—more than words could ever explain 💕🥰. I feel unbelievably lucky 🍀 to have someone like you in my life, someone who makes my world brighter just by existing 🌈✨.I never want to lose you 💔➡️❤️. I want to keep choosing you 💍, holding you 🤍, and loving you endlessly—today, tomorrow, and forever ♾️💖🌹😘', icon: '💍' },
 ]
 

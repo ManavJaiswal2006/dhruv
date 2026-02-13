@@ -90,23 +90,23 @@ export default function LovePost({ onClose }: LovePostProps) {
                 </div>
 
                 <div className="space-y-5 text-rose-900/80 text-lg leading-relaxed font-serif italic">
-                  <p>My Dearest,</p>
+                  <p>My Darlingg, 💕</p>
                   <p>
-                    They say that love is a journey, but with you, every single step feels like 
-                    the destination. I never knew that life could be this vibrant, this kind, 
-                    and this beautiful until you walked into it.
+                    They say love is a journey, but with you, every single step already feels like the destination 🫶♾️.
+                     I never knew life could be this vibrant 🌈, this gentle 🤍, and this beautiful ✨ until you walked into it, Aaira 💖.
                   </p>
                   <p>
-                    You&apos;ve turned my ordinary world into something 
-                    extraordinary, just by being exactly who you are.
+                    You didn’t just become a part of my world—you transformed it 🌟. 
+                    My ordinary days turned extraordinary simply because you exist, because of your heart, your smile 😊, and the way you love me 🥰
                   </p>
                   <p>
-                    So here is my simple, honest truth: I am so incredibly lucky to love you. 
-                    Will you be my Valentine, today and every day after?
+                    So here is my simple, honest truth 💫: I am unbelievably lucky 🍀 to love you, to choose you, and to call you mine 💍.
+                    Will you be my Valentine ❤️—today, tomorrow, and every day that follows ♾️🌹?
+
                   </p>
                   <div className="text-right mt-10">
                     <p className="text-rose-600 font-bold not-italic">Always yours,</p>
-                    <p className="text-sm mt-1">[Your Name]</p>
+                    <p className="text-sm mt-1">[Dhruv Sharma]</p>
                   </div>
                 </div>
               </div>
