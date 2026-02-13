@@ -4,55 +4,47 @@ export const Memory = [
   { 
     id: 1, 
     caption: 'Where it all began', 
-    date: 'Sept 2023', 
     image: '/images/firsttime.jpeg' 
   },
   { 
     id: 2, 
     caption: 'That closest mirror moment', 
-    date: 'Oct 2023', 
     image: '/images/second.jpeg' 
   },
   { 
     id: 3, 
     caption: 'US unbothered and glowing', 
-    date: 'Nov 2023', 
     image: '/images/third.jpeg' 
   },
   { 
     id: 4, 
     caption: 'Black fits us ', 
-    date: 'Dec 2023', 
     image: '/images/fourth.jpeg' 
   },
   { 
     id: 5, 
     caption: 'Surrounded by you loved ones', 
-    date: 'Jan 2024', 
     image: '/images/family.jpeg' 
   },
   { 
     id: 6, 
     caption: 'The laugh we couldn’t stop', 
-    date: 'Feb 2024', 
     image: '/images/sixth.jpeg' 
   },
   { 
     id: 7, 
     caption: 'You made GARBA magical', 
-    date: 'Feb 2024', 
     image: '/images/seventh.jpeg' 
   },
   { 
     id: 8, 
     caption: 'I’m happiest here', 
-    date: 'Mar 2024', 
     image: '/images/eighth.jpeg' 
   },
   { 
     id: 9, 
     caption: 'Where hearts rest', 
-    date: 'Apr 2024', 
+     
     image: '/images/ninth.jpeg' 
   },
 ]
