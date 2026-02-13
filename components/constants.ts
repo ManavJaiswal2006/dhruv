@@ -8,7 +8,7 @@ export const Memory = [
   },
   { 
     id: 2, 
-    caption: 'That closest mirror moment', 
+    caption: 'That closet mirror moment', 
     image: '/images/second.jpeg' 
   },
   { 
@@ -23,12 +23,12 @@ export const Memory = [
   },
   { 
     id: 5, 
-    caption: 'Surrounded by you loved ones', 
+    caption: 'Surrounded by your loved ones', 
     image: '/images/family.jpeg' 
   },
   { 
     id: 6, 
-    caption: 'The laugh we couldn’t stop', 
+    caption: 'The laughter we couldn’t stop', 
     image: '/images/sixth.jpeg' 
   },
   { 
@@ -43,7 +43,7 @@ export const Memory = [
   },
   { 
     id: 9, 
-    caption: 'Where hearts rest', 
+    caption: 'Where our hearts rest', 
      
     image: '/images/ninth.jpeg' 
   },
