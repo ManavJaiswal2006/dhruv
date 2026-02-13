@@ -20,11 +20,12 @@ export default function LovePost({ onClose }: LovePostProps) {
       onClick={onClose}
     >
       <motion.div
+        layout
         initial={{ scale: 0.9, opacity: 0, y: 20 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.9, opacity: 0, y: 20 }}
         onClick={(e) => e.stopPropagation()}
-        className="bg-[#FFF9FA] rounded-[2rem] p-6 md:p-10 max-w-2xl w-full relative shadow-2xl border border-rose-100"
+        className="bg-[#FFF9FA] rounded-[2rem] p-6 md:p-10 max-w-2xl w-full relative shadow-2xl border border-rose-100 overflow-hidden"
       >
         <button
           onClick={onClose}
@@ -96,8 +97,7 @@ export default function LovePost({ onClose }: LovePostProps) {
                     and this beautiful until you walked into it.
                   </p>
                   <p>
-                    You are the quiet comfort in my toughest days and the loudest joy in my 
-                    happiest moments. You've turned my ordinary world into something 
+                    You&apos;ve turned my ordinary world into something 
                     extraordinary, just by being exactly who you are.
                   </p>
                   <p>

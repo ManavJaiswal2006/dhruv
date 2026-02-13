@@ -64,7 +64,7 @@ export default function ConfundusButton({ onClick }: ConfundusButtonProps) {
       onClick={onClick}
       className="fixed left-0 top-0 px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg shadow-lg transition-colors z-50 text-lg font-magical"
     >
-      Avada Kedavra
+      Never
     </motion.button>
   )
 }

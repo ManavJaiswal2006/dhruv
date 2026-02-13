@@ -18,7 +18,7 @@ import { getDaysUntilValentines } from '@/utils/valentineWeekSystem'
 type Phase = 'landing' | 'dashboard'
 type Modal = 'letters' | 'journey' | 'wish' | null
 
-// 1. Move static data outside to prevent re-creation on re-renders
+// 1. Static data moved outside to prevent re-creation
 const ROMANTIC_CARDS = [
   { 
     title: 'Love Letters', 
@@ -61,10 +61,12 @@ export default function Home() {
       shapes: [heart],
       scalar: 2
     })
+    
+    // Transition to the dashboard
     setPhase('dashboard')
   }
 
-  // 2. Memoize background elements so they don't "jump" or re-randomize on state changes
+  // 2. Memoized background elements
   const backgroundElements = useMemo(() => (
     [...Array(12)].map((_, i) => (
       <motion.div
@@ -133,7 +135,9 @@ export default function Home() {
               >
                 Always <Sparkles className="group-hover:rotate-12 transition-transform" />
               </motion.button>
-              <ConfundusButton />
+              
+              {/* FIXED: Added the required onClick prop */}
+              <ConfundusButton onClick={() => {}} />
             </div>
           </motion.div>
         ) : (
@@ -193,7 +197,6 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      {/* 3. Conditional Modal Rendering */}
       <AnimatePresence>
         {modal === 'letters' && <OwlPost onClose={() => setModal(null)} />}
         {modal === 'journey' && <PensieveGallery onClose={() => setModal(null)} />}
