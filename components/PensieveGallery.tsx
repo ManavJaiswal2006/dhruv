@@ -103,9 +103,7 @@ export default function MemoryGallery({ onClose }: MemoryGalleryProps) {
                   <p className="font-serif italic text-rose-800 text-lg line-clamp-1">
                     {photo.caption}
                   </p>
-                  <p className="text-xs font-mono text-rose-300 mt-1 uppercase tracking-tighter">
-                    {photo.date}
-                  </p>
+                  
                 </div>
               </div>
 
